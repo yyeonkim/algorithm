@@ -1,3 +1,5 @@
+const Node = new require("./Node.js");
+
 class DoublyLinkedList {
   constructor() {
     this.head = new Node("head");
